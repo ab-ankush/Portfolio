@@ -54,7 +54,7 @@ const Intro = () => {
           Contact Me
         </Link>
         <a
-          href="https://drive.google.com/file/d/1nNp8HZr7FU8fIsHdcJXMDJ3AjUPOil89/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_dnaR2Fgu5NMOVH0CTTg85kJXMR2_I9k/view?usp=drive_link"
           target="_blank"
           className="bg-white text-slate-900 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-50 hover:scale-105 transition cursor-pointer"
         >
