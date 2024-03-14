@@ -19,21 +19,16 @@ const Intro = () => {
       ref={ref}
     >
       <motion.h1
-        className="text-2xl sm:text-4xl font-bold text-center text-gray-800 dark:text-gray-100 mb-3"
+        className="text-2xl sm:text-4xl font-bold text-center text-gray-800 dark:text-gray-100 my-24"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         // transition={{ delay: 0.2 }}
       >
-        Hello, I'm{" "}
-        <span className="font-bold text-blue-500">Ankush Bhagat</span>
-        <br />
-        <span className="text-xl sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
-          I'm a{" "}
-          <span className="font-bold text-blue-400">Full Stack Developer</span>{" "}
-          based in India. I love to build things for the web. I specialize in
-          building websites and applications using <br />
-          <span className="font-bold text-blue-400">React</span> and{" "}
-          <span className="font-bold text-blue-400">Node.js</span>.
+        <div className="uppercase w-full block tracking-[.8em] text-transparent bg-gradient-to-r dark:from-teal-400 dark:to-yellow-200 from-fuchsia-500 to-cyan-500 bg-clip-text animate-gradient-x select-none mb-5">
+          Ankush Bhagat
+        </div>
+        <span className="text-xl capitalize sm:text-2xl font-normal text-gray-600 dark:text-gray-400 tracking-[.5em]">
+          Full stack Developer
         </span>
       </motion.h1>
 
@@ -45,7 +40,7 @@ const Intro = () => {
       >
         <Link
           href="#Contact"
-          className="bg-gray-900 text-white px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"
+          className="bg-gray-900 text-white dark:bg-gray-800 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800  hover:scale-105 transition cursor-pointer"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -56,7 +51,7 @@ const Intro = () => {
         <a
           href="https://drive.google.com/file/d/1nNp8HZr7FU8fIsHdcJXMDJ3AjUPOil89/view?usp=sharing"
           target="_blank"
-          className="bg-white text-slate-900 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-50 hover:scale-105 transition cursor-pointer"
+          className="bg-gray-200 text-slate-900 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-100 hover:scale-105 transition cursor-pointer"
         >
           Download Resume <ArrowDownTrayIcon className="w-5 h-5" />
         </a>
@@ -65,7 +60,7 @@ const Intro = () => {
           https://www.linkedin.com/in/ab-ankush/
           "
           target="_blank"
-          className="bg-gray-900 text-white px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"
+          className="bg-gray-900 text-white dark:bg-gray-800 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"
         >
           LinkedIn
         </a>
@@ -74,7 +69,7 @@ const Intro = () => {
         https://github.com/ab-ankush/
         "
           target="_blank"
-          className="bg-gray-900 text-white px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"
+          className="bg-gray-900 text-white dark:bg-gray-800 px-5 py-3 flex items-center gap-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-800 hover:scale-105 transition cursor-pointer"
         >
           GitHub
         </a>
