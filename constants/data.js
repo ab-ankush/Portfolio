@@ -4,6 +4,7 @@ import CPHints from "@/assets/images/CP-Hints.png";
 import YelpCampImage from "@/assets/images/Yelp-Camp.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
 import { Html } from "next/document";
 
 export const links = [
@@ -42,7 +43,7 @@ export const ProjectsData = [
     tags: [
       "React",
       "NodeJs",
-      "PostgresSQL",
+      "PostgreSQL",
       "Redis",
       "Express",
       "Bootstrap",
@@ -108,6 +109,14 @@ export const SkillsData = [
 ];
 
 export const experiencesData = [
+  {
+    title: "Full-Stack Developer Intern",
+    location: "DecisionAlgo",
+    description:
+      "As a full-stack web developer at DecionAlgo, I use React and Python Django to create an interface facilitating direct communication between doctors and hospitals and connecting them with locums.",
+    icon: React.createElement(FaLaravel),
+    date: "October 2023 - Present",
+  },
   {
     title: "Full-Stack Developer Intern",
     location: "Suvidha Foundation",
